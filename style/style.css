@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: #192E3C;
+}
 
 header {
     height: 70px;
@@ -11,6 +14,40 @@ header {
     padding: 10px 15px;
 }
 
-img {
+header img {
         height: 100%;
     }
+
+.container-cards {
+    padding-top: 100px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-card {
+    width: calc(100% / 5 - 30px);
+    margin: 10px 15px;
+    padding: 20px;
+    text-align: center;
+    background-color: #2E3A46;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+   
+
+.box-card  img {
+    width:100%;
+}
+
+.box-card h3{
+    color: white;
+    padding: 20px 0;
+}
+
+.box-card p {
+    color: #6A6663;
+}
+
