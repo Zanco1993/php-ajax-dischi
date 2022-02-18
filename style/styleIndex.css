@@ -16,10 +16,21 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+header .content-logo {
+    width: 70px;
+    height: 70px;
+}
 
-header img {
-        height: 100%;
+.content-logo img {
+        width: 100%;
     }
+
+ a {
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    padding: 0 10px;
+}
 
 .container-cards {
     padding-top: 100px;
